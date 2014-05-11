@@ -1,6 +1,6 @@
 {
   "name": "canrfcemail",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license" : "MIT",
   "readmeFilename": "README.md",
   "description": "returns `true` for known valid addresses and returns `false` for some invalid email addresses.",
