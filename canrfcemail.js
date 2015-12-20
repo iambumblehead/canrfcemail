@@ -1,7 +1,7 @@
 // Filename: canrfcemail.js
-// Timestamp: 2014.05.11-16:34:11 (last modified)  
+// Timestamp: 2015.12.19-17:40:46 (last modified)
 // Author(s): Bumblehead (www.bumblehead.com)  
 
-var canrfcemail = ((typeof module === 'object') ? module : {}).exports = function (email) {  
+var canrfcemail = module.exports = function (email) {  
   return /^[^ ].*@.*[^ ]$/.test(email);
 };
